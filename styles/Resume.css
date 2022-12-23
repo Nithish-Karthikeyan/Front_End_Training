@@ -1,0 +1,272 @@
+@font-face {
+    font-family: urbane-bold;
+    src: url("fonts/Urbane-Bold.ttf")
+}
+
+@font-face {
+    font-family: arkit-regular;
+    src: url("fonts/Arkit-Regular.ttf");
+}
+
+@font-face {
+    font-family: CinioText;
+    src: url("fonts/CinioText-Light.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.profile {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-left: 2%;
+}
+
+.profile-content {
+    display: inline-block;
+    width: 59%;
+    margin-left: 28px;
+    margin-top: 80px;
+    color: #344780;
+}
+
+.description {
+    font-size: 19px;
+    padding-top: 30px;
+    margin-bottom: 90px;
+    letter-spacing: -0.1px;
+    font-family: CinioText;
+    line-height: 28px;
+}
+
+.profile-section {
+    color: #344780;
+    font-family: urbane-bold;
+    font-size: 33px
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 82px;
+    margin-left: 83px;
+    margin-bottom: 20px;
+}
+
+.name {
+    text-align: center;
+    color: #344780;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: urbane-bold;
+}
+
+.designation {
+    margin-bottom: 40px;
+    margin-left: 20%;
+    color: #616e9d;
+    font-family: arkit-regular;
+    font-size: 23px;
+}
+
+.contact {
+    text-align: left;
+    color: #44568b;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: arkit-regular;
+    margin-left: 40px;
+    line-height: 55px;
+}
+
+.download {
+    margin-top: 40px;
+    background-color: #377cfe;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    font-size: 15px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+
+.contact-icon {
+    width: 14px;
+    height: 14px;
+    padding-left: 15px;
+    padding-right: 14px;
+}
+
+.contact-details img {
+    display: inline-block;
+}
+
+.contact-details p {
+    display: inline-block;
+}
+
+.line {
+    border-top: 1.4px solid gray;
+    width:85%;
+    margin-right: 80px;
+    opacity: 0.2;
+}
+
+.description-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.profile-content .experience {
+    display: inline-block;
+    font-family: arkit-regular;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.profile-content .work-type {
+    display: inline-block;
+    font-family: arkit-regular;
+    margin-left: 41%;
+}
+
+.profile-content .work-type .work-type-intern {
+    margin-left:88%;
+}
+.work-type p {
+    background-color: #d7ffe0;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 3px 15px 0px 15px;
+}
+
+.company-icon {
+    display: inline-block;
+    width: 14px;
+}
+
+.company {
+    display: inline-block;
+    font-family: arkit-regular;
+    color: #babed0;
+}
+
+.location-icon {
+    display: inline-block;
+    width: 14px;
+}
+
+.location {
+    display: inline-block;
+    font-family: arkit-regular;
+    color: #babed0;
+}
+
+.work-duration {
+    display: inline-block;
+    color: #babed0;
+    font-family: arkit-regular;
+}
+
+.duration-icon {
+    display: inline-block;
+    width: 14px;
+}
+
+.work-duration img {
+    display: inline-block;
+}
+
+.work-duration p {
+    display: inline-block;
+}
+
+.profile-content .left-content {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.profile-content .right-content {
+    display: inline-block;
+    width: 62%;
+    text-align: right;
+}
+
+.profile-content .left-container {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.profile-content .right-container {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.profile-content .right-content .work-duration {
+    text-align: right;
+}
+
+.education-content {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.college div {
+    color: #babed0;
+    padding-bottom: 20px;
+    display: inline-block;
+    font-family: arkit-regular;
+}
+
+.college-name img {
+    display: inline-block;
+    width:14px;
+    height:14px;
+}
+
+.college-name p {
+    display: inline-block;
+}
+
+.course-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    font-family: arkit-regular;
+}
+
+.college-duration {
+    margin-left: 24%;
+}
+
+.college-duration img {
+    display: inline-block;
+    padding-left: 0;
+    width:14px;
+    height:14px;
+}
+
+.college-duration p {
+    display: inline-block;
+}
+
+.profile-content hr {
+    border-top: 1.4px solid gray;
+    opacity: 0.2;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
