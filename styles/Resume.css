@@ -99,16 +99,11 @@ body {
     border-radius: 8px;
 }
 
-
-.contact-icon {
+i {
     width: 14px;
     height: 14px;
     padding-left: 15px;
     padding-right: 14px;
-}
-
-.contact-details img {
-    display: inline-block;
 }
 
 .contact-details p {
@@ -120,11 +115,6 @@ body {
     width:85%;
     margin-right: 80px;
     opacity: 0.2;
-}
-
-.description-icon {
-    width: 18px;
-    height: 18px;
 }
 
 .profile-content .experience {
@@ -152,20 +142,10 @@ body {
     padding: 3px 15px 0px 15px;
 }
 
-.company-icon {
-    display: inline-block;
-    width: 14px;
-}
-
 .company {
     display: inline-block;
     font-family: arkit-regular;
     color: #babed0;
-}
-
-.location-icon {
-    display: inline-block;
-    width: 14px;
 }
 
 .location {
@@ -178,11 +158,6 @@ body {
     display: inline-block;
     color: #babed0;
     font-family: arkit-regular;
-}
-
-.duration-icon {
-    display: inline-block;
-    width: 14px;
 }
 
 .work-duration img {
@@ -200,7 +175,7 @@ body {
 
 .profile-content .right-content {
     display: inline-block;
-    width: 62%;
+    width: 55%;
     text-align: right;
 }
 
@@ -211,7 +186,7 @@ body {
 
 .profile-content .right-container {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .profile-content .right-content .work-duration {
@@ -249,7 +224,7 @@ body {
 }
 
 .college-duration {
-    margin-left: 24%;
+    margin-left: 17%;
 }
 
 .college-duration img {
